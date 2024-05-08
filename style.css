@@ -1,6 +1,12 @@
 :root {cursor:url("images/cursor.png"), auto;}
+html, body {
+    min-height:100%;
+    margin:0;
+    padding:0;
+}
 body {
     font-family: Arial, Helvetica, sans-serif;
+    padding:1rem;
 }
 img {
     border:2px solid salmon;
@@ -8,4 +14,26 @@ img {
 img.yellow {color:yellow;}
 em {
     color:blue;
+}
+.window {
+    background-color: blueviolet;
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+    box-shadow: .25rem .25rem 1rem #666;
+}
+.window .title-bar {
+    margin:0;
+    padding:0 1rem;
+    /* rem is a multiplier of the font size set in the root */ 
+    line-height:2rem;
+    background-color: orchid;
+    color:black;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+.window .content {
+    padding: 1rem;
+    background-color: pink;
+    border-bottom-left-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
 }
