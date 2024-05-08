@@ -1,0 +1,11 @@
+:root {cursor:url("images/cursor.png"), auto;}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+img {
+    border:2px solid salmon;
+}
+img.yellow {color:yellow;}
+em {
+    color:blue;
+}
